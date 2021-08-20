@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "fast-api"
+version = "0.1.0"
+description = ""
+authors = ["Julian Da Cunha <j.dacunha@pm.me>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "7.1.2"
+fastapi = "0.63.0"
+fastapi-crudrouter = "0.7.1"
+greenlet = "1.0.0"
+h11 = "0.12.0"
+httptools = "0.1.1"
+pydantic = "1.8.1"
+python-dotenv = "0.17.0"
+PyYAML = "5.4.1"
+SQLAlchemy = "1.4.11"
+starlette = "0.13.6"
+typing-extensions = "3.7.4.3"
+uvicorn = "0.13.4"
+uvloop = "0.15.2"
+watchgod = "0.7"
+websockets = "8.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
